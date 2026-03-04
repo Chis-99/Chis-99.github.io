@@ -22,3 +22,65 @@ a{color:var(--text);text-decoration:none}
 .tag{font-size:12px;color:var(--muted);border:1px solid rgba(255,255,255,.12);padding:4px 8px;border-radius:999px}
 .footer{margin-top:28px;color:var(--muted);font-size:14px;padding:18px 0;border-top:1px solid rgba(255,255,255,.08)}
 .small{color:var(--muted);font-size:14px}
+/* Dashboard additions */
+.kpi {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.kpi .card {
+  padding: 14px;
+}
+
+.kpi-label {
+  color: var(--muted);
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.kpi-value {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.kpi-sub {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.item {
+  border-top: 1px solid rgba(255,255,255,.08);
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
+.item:first-child {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.pill {
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.14);
+  color: var(--muted);
+  margin-left: 8px;
+}
+
+.published { color: #c7f9cc; border-color: rgba(199,249,204,.25); }
+.progress  { color: #ffd6a5; border-color: rgba(255,214,165,.25); }
+.planned   { color: #bde0fe; border-color: rgba(189,224,254,.25); }
