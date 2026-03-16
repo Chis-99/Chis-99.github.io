@@ -84,3 +84,24 @@ a{color:var(--text);text-decoration:none}
 .published { color: #c7f9cc; border-color: rgba(199,249,204,.25); }
 .progress  { color: #ffd6a5; border-color: rgba(255,214,165,.25); }
 .planned   { color: #bde0fe; border-color: rgba(189,224,254,.25); }
+
+/* Activity Feed */
+
+.activity-feed {
+  margin-top: 20px;
+}
+
+.activity-item {
+  border-left: 3px solid var(--accent);
+  padding-left: 14px;
+  margin-bottom: 18px;
+}
+
+.activity-date {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.activity-text {
+  margin-top: 4px;
+}
